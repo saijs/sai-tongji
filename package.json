@@ -1,0 +1,25 @@
+{
+  "name": "sai-tongji",
+  "version": "0.1.0",
+  "description": "使用 Sai.js 捕获异常，并基于百度统计分析异常。",
+  "keywords": ["Sai", "Exception", "Baidu", "tongji", "百度", "统计"],
+  "homepage": "https://github.com/saijs/sai-tongji",
+  "author": "闲耘 <hotoo.cn@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/saijs/sai-tongji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saijs/sai-tongji/issues"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "sai": "3.0.0"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}
