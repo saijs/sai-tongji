@@ -9,9 +9,11 @@ Sai.on("jserror", function(err){
   var action = err.message;
   var label = err.file + "#L" + err.line;
 
-  if (win._hmt && typeof _hmt.push === "function"){
+  var _hmt = win._hmt;
 
-    win._hmt.push(['_trackEvent', category, action, label]);
+  if (_hmt && typeof _hmt.push === "function"){
+
+    _hmt.push(['_trackEvent', category, action, label]);
     catched = true;
 
   }
